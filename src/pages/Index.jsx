@@ -185,7 +185,7 @@ const TicTacToe = () => {
   };
 
   const renderSquare = (index) => (
-    <Button w="24px" h="24px" onClick={() => handleClick(index)} disabled={board[index] !== null}>
+    <Button w="100px" h="100px" fontSize="4xl" onClick={() => handleClick(index)} disabled={board[index] !== null}>
       {board[index]}
     </Button>
   );
@@ -195,7 +195,7 @@ const TicTacToe = () => {
       <Heading size="md" mb={4}>
         Tic-Tac-Toe
       </Heading>
-      <Grid templateColumns="repeat(3, 1fr)" gap={2} mb={4}>
+      <Grid templateColumns="repeat(3, 1fr)" gap={4} mb={4}>
         {[0, 1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
           <GridItem key={index}>{renderSquare(index)}</GridItem>
         ))}
