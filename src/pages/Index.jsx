@@ -262,22 +262,34 @@ const Index = () => {
       </Heading>
       <Grid templateColumns="repeat(2, 1fr)" gap={8}>
         <GridItem>
-          <TodoApp />
+          <Box borderWidth={1} borderRadius="lg" p={4} boxShadow="md">
+            <TodoApp />
+          </Box>
         </GridItem>
         <GridItem>
-          <PomodoroTimer />
+          <Box borderWidth={1} borderRadius="lg" p={4} boxShadow="md">
+            <PomodoroTimer />
+          </Box>
         </GridItem>
         <GridItem>
-          <Stopwatch />
+          <Box borderWidth={1} borderRadius="lg" p={4} boxShadow="md">
+            <Stopwatch />
+          </Box>
         </GridItem>
         <GridItem>
-          <TicTacToe />
+          <Box borderWidth={1} borderRadius="lg" p={4} boxShadow="md">
+            <TicTacToe />
+          </Box>
         </GridItem>
         <GridItem>
-          <MusicPlayer />
+          <Box borderWidth={1} borderRadius="lg" p={4} boxShadow="md">
+            <MusicPlayer />
+          </Box>
         </GridItem>
         <GridItem>
-          <Scratchpad />
+          <Box borderWidth={1} borderRadius="lg" p={4} boxShadow="md">
+            <Scratchpad />
+          </Box>
         </GridItem>
       </Grid>
     </Box>
